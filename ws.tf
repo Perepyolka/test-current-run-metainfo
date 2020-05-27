@@ -1,7 +1,7 @@
 resource "scalr_workspace" "ws" {
   name = "test3"
   organization = "org-sgpvfvrkj5ao2j0"
-  working_directory = ""
+  working_directory = "test"
   
   vcs_repo {
     identifier = "Perepyolka/terraform-test-brokenversions"
