@@ -4,7 +4,7 @@ resource "scalr_workspace" "ws" {
   working_directory = ""
   
   vcs_repo {
-    identifier = "perepyolka/terraform-scalr-eapeape"
+    identifier = "Perepyolka/terraform-test-brokenversions"
     oauth_token_id = "vcs-stqieqfflva0gfg"
   }
 }
