@@ -3,7 +3,7 @@ resource "scalr_workspace" "ws" {
   organization = "org-sgpvfvrkj5ao2j0"
   
   vcs_repo {
-    identifier = "perepyolka/terraform-ik-modules"
+    identifier = "perepyolka/terraform-scalr-eapeape"
     oauth_token_id = "vcs-stqieqfflva0gfg"
   }
 }
