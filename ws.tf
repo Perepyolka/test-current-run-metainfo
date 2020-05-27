@@ -5,5 +5,6 @@ resource "scalr_workspace" "ws" {
   vcs_repo {
     identifier = "perepyolka/terraform-scalr-eapeape"
     oauth_token_id = "vcs-stqieqfflva0gfg"
+    path = ""
   }
 }
